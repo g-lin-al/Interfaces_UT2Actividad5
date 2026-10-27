@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    font-family: 'Rye';
+    padding: 10px 0px;
+}
+
+#encabezado {
+    height: 150px;
+    background-color: rgb(24, 170, 24);
+    padding: 10px 0px;
+}
+
+#encabezado img {
+    height: 100%;
+    border-radius: 50%;
+}
