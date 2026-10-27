@@ -1,0 +1,90 @@
+main {
+    height: 100vh;
+    color: white;
+}
+
+div[class^="fila"] {
+    display: flex;
+    text-align: center;
+    height: 20%;
+}
+
+.fila1 div {
+    width: 100%;
+}
+
+#div_11 {
+    background-color: lightgreen;
+}
+
+.fila2 div {
+    width: 50%;
+}
+
+#div_21 {
+    background-color: lightpink;
+}
+
+#div_22 {
+    background-color: orange;
+}
+
+.fila3 div {
+    width: 33.33%;
+}
+
+#div_31 {
+    background-color: teal;
+}
+
+#div_32 {
+    background-color: purple;
+}
+
+#div_33 {
+    background-color: red;
+}
+
+.fila4 div {
+    width: 25%;
+}
+
+#div_41 {
+    background-color: yellow;
+}
+
+#div_42 {
+    background-color: black;
+}
+
+#div_43 {
+    background-color: coral;
+}
+
+#div_44 {
+    background-color: lightblue;
+}
+
+.fila5 div {
+    width: 20%;
+}
+
+#div_51 {
+    background-color: green;
+}
+
+#div_52 {
+    background-color: purple;
+}
+
+#div_53 {
+    background-color: blue;
+}
+
+#div_54 {
+    background-color: red;
+}
+
+#div_55 {
+    background-color: pink;
+}
