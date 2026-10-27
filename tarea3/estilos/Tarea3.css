@@ -6,7 +6,15 @@
     text-align: center;
 }
 
-h2 {
+main {
+    background-image: url(/tarea3/estilos/imagenes/fondo_main.jpg);
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: padding-box;
+}
+
+/* Selector descendiente requerido */
+main h2 {
     background-color: black;
     color: white;
     font-family: 'Rye';
@@ -22,4 +30,53 @@ h2 {
 #encabezado img {
     height: 100%;
     border-radius: 50%;
+}
+
+.producto {
+    width: 90%;
+    border: 5px black dotted;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Selector de hijos directos */
+.producto > h3 {
+    color: rgb(24, 170, 24);
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+/* Selector adyacente */
+h3 + p {
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+/* Selector de hermanos generales */
+h3 ~ img {
+    width: 300px;
+    height: 300px;
+    border: 5px rgb(24, 170, 24) solid;
+    margin: 10px;
+}
+
+/* Selector descendiente */
+div .precio {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+button {
+    padding: 10px 100px;
+    background-color: rgb(24, 170, 24);
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
 }
