@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@font-face {
+    font-family: Gloria Hallelujah;
+    src: url(/tarea2/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+    font-family: Matcha Style;
+    src: url(/tarea2/matcha_style/Matcha\ Style.ttf);
+}
+
+* {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+div[class^="div"] {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.div_1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+}
+
+.div_2 {
+    background-color: yellow;
+    font-family: 'Edu QLD Hand';
+}
+
+.div_3 {
+    background-color: purple;
+    font-family: 'Emilys Candy';
+}
+
+.div_4 {
+    background-color: green;
+    font-family: Gloria Hallelujah;
+}
+
+.div_5 {
+    background-color: red;
+    font-family: Matcha Style;
+}
